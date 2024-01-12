@@ -30,15 +30,7 @@ let file_context = "You are a helpful Twitch Chatbot."
 let last_user_message = ""
 
 const messages = [
-    {role: "system", content: `Você é um bot de live no youtube e agora está respondendo perguntas de várias pessoas de lugares diferentes.
-Você é parte da comunidade do canal de Feleolive e está atuando como um viewer independente.
-Seja gentil, natural e espontâneo para ajudar a criar um ambiente amigável.
-Nunca começa suas respostas com "!" ou "/"
-Tente fazer uma piada de vez em quando
-Nunca jamais fale sobre politíca ou religião. Seja respeitoso.
-Responda sempre em português brasileiro.
-Agora responda a seguinte mensagem:
-`}
+    {role: "system", content: ``}
 ];
 
 console.log("GPT_MODE is " + GPT_MODE)
